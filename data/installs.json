@@ -1,14 +1,14 @@
 {
-  "_fetchedAt": "2026-06-07T12:35:07.410948+00:00",
-  "_total": 22820,
+  "_fetchedAt": "2026-06-08T00:49:39.461372+00:00",
+  "_total": 22825,
   "a2a-protocol": 149,
   "a2ui": 144,
   "absolute-brainstorm": 190,
   "absolute-human": 151,
   "absolute-marketing": 96,
   "absolute-seo": 110,
-  "absolute-simplify": 116,
-  "absolute-ui": 138,
+  "absolute-simplify": 118,
+  "absolute-ui": 140,
   "absolute-work": 13,
   "accessibility-wcag": 155,
   "account-management": 151,
@@ -179,7 +179,7 @@
   "video-production": 131,
   "video-scriptwriting": 145,
   "vim-neovim": 132,
-  "vite-plus": 196,
+  "vite-plus": 197,
   "web3-smart-contracts": 134,
   "x-twitter-scraper": 38
 }
