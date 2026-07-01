@@ -17,7 +17,7 @@ Complete catalog of existing and planned skills for the AbsolutelySkilled regist
 | clean-architecture | Built | Hexagonal, onion, ports-and-adapters patterns |
 | backend-engineering | Built | API design, databases, caching, queues, scaling |
 | frontend-developer | Built | Modern frontend patterns, frameworks, state management |
-| absolute-human | Built | AI-native development lifecycle - task decomposition, parallel execution, TDD, board tracking |
+| auto-engineer | Built | One skill, four specializations - ENGINEER (AI-native dev lifecycle), UI, DOCS, MAINTAIN |
 | system-design | Planned | Distributed systems, load balancing, CAP theorem, architecture interviews |
 | microservices | Planned | Service decomposition, communication patterns, saga, CQRS |
 | api-design | Planned | REST, GraphQL, gRPC, OpenAPI spec, versioning, pagination |
@@ -61,7 +61,7 @@ Complete catalog of existing and planned skills for the AbsolutelySkilled regist
 
 | Skill | Status | Description |
 |---|---|---|
-| absolute-ui | Built | Polished modern UIs with proper spacing, color, typography |
+| auto-engineer | Built | Polished modern UIs with proper spacing, color, typography (UI specialization) |
 | accessibility-wcag | Planned | ARIA, screen readers, keyboard navigation, WCAG compliance |
 | figma-to-code | Planned | Translating Figma designs to pixel-perfect implementations |
 | ux-research | Planned | User interviews, usability testing, journey mapping, A/B test design |

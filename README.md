@@ -28,69 +28,36 @@ Skills work with any agent that supports the SKILL.md format: Claude Code, Gemin
 
 These skills form the backbone of AbsolutelySkilled - install them first and watch your AI agent transform from a code assistant into an autonomous development partner.
 
-### Absolute Brainstorm - Relentless Design Interview
+### Auto Engineer - One Skill, Four Specializations
 
-A structured design interrogation that reads your entire codebase before asking a single question - every assumption challenged, every dependency resolved, one decision at a time.
+One unified skill for all engineering work - code, UI, docs, and repo maintenance. Auto-detects which specialization to activate from the prompt and loads only the relevant reference files, replacing what used to be several separate commands.
 
 **Install:**
 
 ```bash
-npx skills add AbsolutelySkilled/AbsolutelySkilled --skill absolute-brainstorm
+npx skills add AbsolutelySkilled/AbsolutelySkilled --skill auto-engineer
 ```
 
 **Usage:**
 
 ```bash
-/absolute-brainstorm "Add real-time notifications to our app"
-/absolute-brainstorm "Redesign the authentication flow to support SSO"
-/absolute-brainstorm "Build a platform with chat, billing, analytics, and admin dashboard"
+/auto-engineer "Add OAuth2 login with Google and GitHub providers"
+/auto-engineer "Redesign the dashboard to look less like AI slop"
+/auto-engineer "Write a spec for the notifications system, don't build yet"
+/auto-engineer "Run a security audit and fix the flaky CI tests"
 ```
 
 **How it works:**
 
-1. **Reads everything** - docs/, README, CLAUDE.md, recent commits, project structure
-2. **Explores the codebase** - searches code before every question so it only asks what can't be inferred
-3. **Enters plan mode** - all reasoning happens in plan mode with ultrathink-level depth
-4. **One question at a time** - strictly linear, dependency-resolved. Decision B is never asked until Decision A is locked
-5. **Marks (Recommended)** on every option set - with clear rationale, no wishy-washy "it depends"
-6. **No fake options** - only proposes multiple approaches at genuine design forks. If the answer is obvious, says so
-7. **Decomposes large projects** - flags multi-system requests and breaks them into sub-projects automatically
-8. **Writes a spec** to `docs/plans/YYYY-MM-DD-<topic>-design.md`
-9. **Self-reviews via subagent** - catches gaps and contradictions before you see it
-10. **You choose what's next** - writing-plans, absolute-human, direct implementation, or something else
+- **ENGINEER** - relentless design interview → reviewed spec → dependency-graphed task board → safe-wave TDD execution → generator-evaluator verification. Includes a SPEC-lite mode for design-doc-only handoffs.
+- **UI** - design system knowledge with concrete values: spacing, color theory, typography, components, dark mode, accessibility.
+- **DOCS** - Diátaxis-driven documentation: write, improve, or audit tutorials, how-tos, reference, and explanation pages.
+- **MAINTAIN** - repo-wide health: security/CVE audit, lint/type debt paydown, flaky-test deflaking, dead-code pruning, dependency upgrades - five sub-modes sharing one detect-scan-triage-fix-verify engine.
 
-### Absolute-Human - AI-Native Development Lifecycle
-
-A complete SDLC replacement for AI agents - decomposes features into dependency-graphed tasks, executes them in parallel waves with TDD verification, and tracks everything on a persistent board.
-
-**Install:**
-
-```bash
-npx skills add AbsolutelySkilled/AbsolutelySkilled --skill absolute-human
-```
-
-**Usage:**
-
-```bash
-/absolute-human "Add OAuth2 login with Google and GitHub providers"
-/absolute-human "Migrate the REST API to GraphQL"
-/absolute-human "Build a real-time chat feature with WebSocket support"
-```
-
-**How it works:**
-
-1. **Interview** - extracts requirements, constraints, and success criteria
-2. **Decompose** - breaks work into a dependency-graphed DAG of atomic sub-tasks
-3. **Discover** - explores your codebase and docs in parallel per task
-4. **Plan** - creates test-first implementation strategies per task
-5. **Execute** - runs independent tasks simultaneously via sub-agents in parallel waves
-6. **Verify** - validates every task with TDD, lint, typecheck, and build checks
-7. **Converge** - self code review, requirements validation, and full project verification
-
-Everything is tracked on a persistent `.absolute-human/board.md` that survives across sessions - resume where you left off, audit decisions, or hand off to another developer.
+Everything in ENGINEER mode is tracked on a persistent `.auto-engineer/board.md` that survives across sessions - resume where you left off, audit decisions, or hand off to another developer.
 
 ```
-INTAKE --> DECOMPOSE --> DISCOVER --> PLAN --> EXECUTE --> VERIFY --> CONVERGE
+INTAKE --> SPEC --> DECOMPOSE --> EXECUTE --> VERIFY --> CONVERGE
 ```
 
 ### Second Brain - Persistent Memory for AI Agents
@@ -340,8 +307,7 @@ skills/
 | [clean-architecture](skills/clean-architecture/) | Clean Architecture principles - dependency rule, layers, boundaries, component design |
 | [backend-engineering](skills/backend-engineering/) | Backend systems design - databases, APIs, distributed systems, caching, observability |
 | [frontend-developer](skills/frontend-developer/) | Frontend engineering - components, performance, accessibility, CSS patterns, testing |
-| [absolute-brainstorm](skills/absolute-brainstorm/) | Relentless design interview - ultrathink reasoning, codebase-first questions, dependency-resolved decision trees |
-| [absolute-human](skills/absolute-human/) | AI-native development lifecycle - task decomposition, dependency graphs, wave-based parallel execution |
+| [auto-engineer](skills/auto-engineer/) | One skill, four specializations - relentless design interview, dependency-graphed execution, UI, docs, and repo maintenance (ENGINEER specialization) |
 | [system-design](skills/system-design/) | Distributed systems, load balancing, CAP theorem, architecture interviews |
 | [microservices](skills/microservices/) | Service decomposition, communication patterns, saga, CQRS |
 | [api-design](skills/api-design/) | REST, GraphQL, gRPC, OpenAPI spec, versioning, pagination |
@@ -392,7 +358,7 @@ skills/
 
 | Skill | Description |
 |---|---|
-| [absolute-ui](skills/absolute-ui/) | Build polished, modern UIs - spacing, color, typography, components, accessibility, animations, design systems |
+| [auto-engineer](skills/auto-engineer/) | Build polished, modern UIs - spacing, color, typography, components, accessibility, animations, design systems (UI specialization) |
 | [accessibility-wcag](skills/accessibility-wcag/) | ARIA, screen readers, keyboard navigation, WCAG compliance |
 | [figma-to-code](skills/figma-to-code/) | Translating Figma designs to pixel-perfect implementations |
 | [ux-research](skills/ux-research/) | User interviews, usability testing, journey mapping, A/B test design |

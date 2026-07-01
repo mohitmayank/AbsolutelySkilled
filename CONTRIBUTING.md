@@ -2,6 +2,19 @@
 
 Thanks for your interest in contributing! This project thrives on community-built skills.
 
+## Fork policy
+
+This repo started as a fork of `maddhruv/absolute`. As of the `auto-engineer` consolidation,
+it intentionally diverges from that upstream: upstream splits engineering-lifecycle work into
+11 separate `absolute-*` skills (one skill per command); this repo instead ships one skill,
+`skills/auto-engineer/`, that auto-detects which specialization (ENGINEER, UI, DOCS, MAINTAIN)
+to activate from the prompt and loads only the matching reference files.
+
+Going forward, new engineering-lifecycle capability lands as a specialization or reference file
+inside `auto-engineer` — this repo does not port upstream's skill-per-command split. `auto-engineer`
+is also mirrored standalone at `github.com/mohitmayank/auto-engineer` for install outside this
+monorepo; that mirror is downstream of this repo, not the other way around.
+
 ## Adding a new skill
 
 ### Using skill-forge (recommended)

@@ -703,26 +703,6 @@ skills:
   description: Create, test, and deploy synthetic monitoring checks from source code using the supaguard CLI. Triggers on monitoring setup, Playwright script generation, uptime checks, health checks, and
     production observability workflows.
   category: monitoring
-- name: absolute-brainstorm
-  version: 0.1.0
-  description: You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, designing systems, or making architectural decisions. Enters
-    plan mode, reads all available docs, explores the codebase deeply, then interviews the user relentlessly with ultrathink-level reasoning on every decision until a shared understanding is reached. Produces
-    a validated design spec before any implementation begins. Triggers on feature requests, design discussions, refactors, new projects, component creation, system changes, and any task requiring design
-    decisions.
-  category: workflow
-- name: absolute-human
-  version: 0.1.0
-  description: AI-native software development lifecycle that replaces traditional SDLC. Triggers on "plan and build", "break this into tasks", "build this feature end-to-end", "sprint plan this", "absolute-human
-    this", or any multi-step development task. Decomposes work into dependency-graphed sub-tasks, executes in parallel waves with TDD verification, and tracks progress on a persistent board. Handles features,
-    refactors, greenfield projects, and migrations.
-  category: engineering
-- name: software-engineering
-  version: 0.1.0
-  description: Use this skill for ANY software or code work - building features, fixing bugs, refactoring, designing systems, scaffolding projects, writing or modifying code, planning implementations, or
-    making architectural decisions. Triggers on feature requests, "build this", "add X", "implement", "refactor", "fix this bug", "design", "plan and build", "break this into tasks", greenfield projects, and
-    migrations. Adapts depth to complexity, taking a light path for trivial fixes and a full design -> decompose -> parallel-execute -> verify lifecycle for complex work. Combines a relentless design interview with
-    AI-native execution (dependency-graphed waves, TDD, generator-evaluator review).
-  category: engineering
 - name: absolute-seo
   version: 1.0.0
   description: Use this skill when optimizing for search engines across any dimension - technical SEO, on-page optimization, content quality (E-E-A-T), schema markup, Core Web Vitals, local SEO, link building,
@@ -763,11 +743,12 @@ skills:
   description: Use this skill when deciding what to test, choosing between test types, designing a testing strategy, or balancing test coverage. Triggers on test pyramid, unit vs integration vs e2e, contract
     testing, test coverage strategy, TDD, BDD, testing ROI, and any task requiring testing architecture decisions.
   category: engineering
-- name: absolute-ui
-  version: 0.1.0
-  description: Use this skill when building user interfaces that need to look polished, modern, and intentional - not like AI-generated slop. Triggers on UI design tasks including component styling, layout
-    decisions, color choices, typography, spacing, responsive design, dark mode, accessibility, animations, landing pages, onboarding flows, data tables, navigation patterns, and any question about making
-    a UI look professional. Covers CSS, Tailwind, and framework-agnostic design principles.
+- name: auto-engineer
+  version: 1.0.0
+  description: One unified skill for all engineering work - code, UI, docs, and repo maintenance. Auto-detects which specialization to activate from the prompt - ENGINEER for feature work and code
+    changes (full phase-gated SDLC, spec, DAG execution, TDD, evaluator; SPEC-lite mode for design-doc-only handoffs), UI for design and styling, DOCS for documentation (Diataxis-driven), MAINTAIN for
+    repo health (security audit, lint/type debt, flaky tests, dead code, dependency upgrades). Blends specializations in a single session when the prompt spans them. Triggers on any code/feature/build
+    request, "design a UI", "style this", "write docs", "security audit", "fix flaky tests", "upgrade dependencies", or any combination.
   category: engineering
 - name: unity-development
   version: 0.1.0

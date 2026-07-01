@@ -25,7 +25,7 @@ const topSkills = getTopSkillsByCounts(
   5
 );
 
-const flagshipSkills = skills.filter((s) => s.slug.startsWith('absolute-'));
+const flagshipSkills = skills.filter((s) => s.slug.startsWith('absolute-') || s.slug === 'auto-engineer');
 
 const recentSkills = skills.slice(-10).reverse();
 
