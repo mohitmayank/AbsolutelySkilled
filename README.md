@@ -38,6 +38,12 @@ One unified skill for all engineering work - code, UI, docs, and repo maintenanc
 npx skills add AbsolutelySkilled/AbsolutelySkilled --skill auto-engineer
 ```
 
+Also available as a standalone install outside this monorepo:
+
+```bash
+npx skills add mohitmayank/auto-engineer
+```
+
 **Usage:**
 
 ```bash
