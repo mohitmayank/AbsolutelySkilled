@@ -1,6 +1,6 @@
 {
-  "_fetchedAt": "2026-07-28T02:09:55.523776+00:00",
-  "_total": 22143,
+  "_fetchedAt": "2026-07-28T13:57:03.653937+00:00",
+  "_total": 22284,
   "a2a-protocol": 152,
   "a2ui": 146,
   "absolute": 88,
@@ -103,6 +103,7 @@
   "motion-design": 50,
   "nlp-engineering": 130,
   "no-code-automation": 134,
+  "observability": 141,
   "on-site-seo": 45,
   "onboarding": 123,
   "open-source-management": 129,
